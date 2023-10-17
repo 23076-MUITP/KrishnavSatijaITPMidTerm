@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+#landing {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#landing-text {
+    padding: 2rem;
+    text-align: center;
+}
+
+#landing-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+#landing-text h2 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+#view-work {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    padding: 0.8rem 1.5rem;
+    background-color: white;
+    color: grey;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+
+#view-work:hover {
+    background-color: #f5f5f5;
+}
+
+#images {
+    text-align: center;
+    padding: 20px;
+}
+
+#images h2 {
+    font-size: 30px;
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 20px;
+}
+
+.caption {
+    margin-top: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.caption h3 {
+    font-size: 24px;
+}
+
+.caption p {
+    font-size: 16px;
+}
+
+.carousel-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.carousel-img .caption {
+    flex: 1;
+    text-align: center;
+    margin: 0 20px;
+}
+
+.carousel-img img {
+    max-width: 300px;
+    margin: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer h3 {
+    font-size: 30px; /* Increased the font size of the 'Get In Touch' text */
+    font-family: 'Arial', sans-serif;
+}
+
+footer a {
+    color: red; /* Changed the color of the phone number to red */
+    text-decoration: none; /* Remove underlines from links */
+}
